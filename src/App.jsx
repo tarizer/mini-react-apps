@@ -20,8 +20,8 @@ function App() {
   return (
     <Routes>
       <Route path="*" />
-      <Route path="/" element={<Home />} />
-      <Route path="/counter" element={<Counter />} />
+      {/* <Route path="/" element={<Home />} /> */}
+      <Route path="/" element={<Counter />} />
       <Route path="/form" element={<Form title="⚛️ Form" />} />
       <Route path="/longform" element={<LongForm title="⚛️ LongForm" />} />
       <Route
